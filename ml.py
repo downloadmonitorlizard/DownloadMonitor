@@ -121,7 +121,7 @@ url_entry = tk.Entry(url_frame, width=50, font=("Helvetica", 12))
 url_entry.grid(row=0, column=1, padx=5)
 
 # User needs to change api key to their own from VirusTotal
-api_key = 'bb5c48a4e5ddc7226438cafa1edceb6058681f6f027763f3cfe1bb55baca4347'
+api_key = 'INSERT API KEY'
 check_button = tk.Button(url_frame, text="Check Website Security", command=lambda: check_website_security(url_entry, log_widget, api_key, root), font=("Helvetica", 12), bg='#004d00', fg='white')
 check_button.grid(row=0, column=2, padx=5)
 
