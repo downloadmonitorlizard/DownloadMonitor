@@ -44,8 +44,8 @@ def download_monitor(directory, log_widget, root):
                 known_files.add(filename)
                 scan_file(os.path.join(directory, filename), log_widget, root)
 
-        # Wait 15 seconds for another check
-        time.sleep(15)
+        # Wait 5 seconds for another check
+        time.sleep(5)
 
 def start_monitoring(directory, log_widget, root):
     import threading
