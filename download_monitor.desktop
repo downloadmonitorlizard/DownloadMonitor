@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Download Monitor
+Comment=Monitor directories and check website security
+Exec=/home/austin/start_ml.sh
+Icon=/home/austin/Monitor-lizard-silhouette-vector.jpg
+Terminal=false
